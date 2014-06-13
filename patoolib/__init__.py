@@ -24,8 +24,9 @@ import importlib
 # PEP 396
 from .configuration import Version as __version__
 __all__ = ['list_formats', 'list_archive', 'extract_archive', 'test_archive',
-    'create_archive', 'diff_archives', 'search_archive', 'repack_archive']
+    'create_archive', 'diff_archives', 'search_archive', 'repack_archive', "PAPERC_CUSTOM_BUILD"]
 
+PAPERC_CUSTOM_BUILD = True
 
 # Supported archive commands
 ArchiveCommands = ('list', 'extract', 'test', 'create')
