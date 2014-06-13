@@ -33,7 +33,7 @@ ArchiveCommands = ('list', 'extract', 'test', 'create')
 # Supported archive formats
 ArchiveFormats = (
     '7z', 'ace', 'adf', 'alzip', 'ape', 'ar', 'arc', 'arj',
-    'bzip2', 'cab', 'chm', 'compress', 'cpio', 'deb', 'dms',
+    'bzip2', 'cab', 'chm', 'compress', 'cpio', 'deb', 'dms', 'epub',
     'flac', 'gzip', 'iso', 'lrzip', 'lzh', 'lzip', 'lzma', 'lzop',
     'rar', 'rpm', 'rzip', 'shar', 'shn', 'tar', 'xz',
     'zip', 'zoo')
@@ -78,6 +78,7 @@ ArchiveMimetypes = {
     'application/x-tar': 'tar',
     'application/x-xz': 'xz',
     'application/x-zip-compressed': 'zip',
+    'application/epub+zip': 'zip',
     'application/x-zoo': 'zoo',
     'application/zip': 'zip',
     'audio/x-ape': 'ape',
